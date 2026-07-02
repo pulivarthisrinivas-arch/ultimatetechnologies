@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Technologies | Software Training Institute</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f8fc;
+color:#333;
+}
+
+header{
+background:linear-gradient(90deg,#0d47a1,#1976d2);
+color:white;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD54F;
+}
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#fb8c00;
+}
+
+section{
+padding:80px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#0d47a1;
+margin-bottom:50px;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:15px;
+}
+
+.about p{
+line-height:1.8;
+font-size:18px;
+}
+
+.courses{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.course{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.course:hover{
+transform:translateY(-10px);
+}
+
+.course h3{
+color:#1565c0;
+margin-bottom:15px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature{
+background:#1976d2;
+color:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+}
+
+.stats{
+background:#0d47a1;
+color:white;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+text-align:center;
+padding:60px 8%;
+}
+
+.stats h2{
+font-size:45px;
+}
+
+.testimonials{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.testimonial{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+form input,
+form textarea{
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+form button{
+background:#1976d2;
+color:white;
+padding:15px 30px;
+border:none;
+border-radius:30px;
+font-size:18px;
+cursor:pointer;
+}
+
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+.about,
+.contact{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+nav{
+display:none;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Ultimate Technologies</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#placements">Placements</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Build Your Career in IT</h1>
+
+<p>Professional Software Training | Real-Time Projects | 100% Placement Assistance</p>
+
+<a href="#courses" class="btn">Explore Courses</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80">
+
+<div>
+
+<p>
+
+Ultimate Technologies is a leading Software Training Institute offering industry-oriented training with real-time projects. Our experienced trainers help students and professionals become job-ready through practical learning.
+
+</p>
+
+<br>
+
+<p>
+
+We specialize in Cloud Computing, SAP, DevOps, Python, Java, Full Stack Development, Data Science, and more.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="courses">
+
+<h2 class="title">Our Courses</h2>
+
+<div class="courses">
+
+<div class="course">
+<h3>Python Full Stack</h3>
+<p>Python, Django, REST API, HTML, CSS, JavaScript, React.</p>
+</div>
+
+<div class="course">
+<h3>Java Full Stack</h3>
+<p>Core Java, Spring Boot, Hibernate, Angular/React.</p>
+</div>
+
+<div class="course">
+<h3>AWS Cloud</h3>
+<p>EC2, VPC, IAM, S3, Load Balancer, Auto Scaling.</p>
+</div>
+
+<div class="course">
+<h3>DevOps</h3>
+<p>Docker, Kubernetes, Jenkins, GitHub, Terraform.</p>
+</div>
+
+<div class="course">
+<h3>SAP BASIS</h3>
+<p>SAP HANA, Installation, Administration, Monitoring.</p>
+</div>
+
+<div class="course">
+<h3>Data Science</h3>
+<p>Python, Pandas, Machine Learning, AI.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Why Choose Us?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>Expert Trainers</h3>
+<p>10+ Years Industry Experience</p>
+</div>
+
+<div class="feature">
+<h3>Live Projects</h3>
+<p>Hands-on Real-Time Training</p>
+</div>
+
+<div class="feature">
+<h3>Placement Support</h3>
+<p>Interview Preparation & Resume Building</p>
+</div>
+
+<div class="feature">
+<h3>Flexible Timings</h3>
+<p>Weekday & Weekend Batches</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="placements">
+
+<h2 class="title">Placement Highlights</h2>
+
+</section>
+
+<div class="stats">
+
+<div>
+<h2>5000+</h2>
+<p>Students Trained</p>
+</div>
+
+<div>
+<h2>1200+</h2>
+<p>Placements</p>
+</div>
+
+<div>
+<h2>50+</h2>
+<p>Corporate Clients</p>
+</div>
+
+<div>
+<h2>20+</h2>
+<p>Professional Courses</p>
+</div>
+
+</div>
+
+<section>
+
+<h2 class="title">Student Testimonials</h2>
+
+<div class="testimonials">
+
+<div class="testimonial">
+<p>
+★★★★★ <br><br>
+Excellent trainers with practical sessions. I got placed after completing AWS and DevOps training.
+</p>
+
+<h4>- Rahul</h4>
+
+</div>
+
+<div class="testimonial">
+
+<p>
+★★★★★ <br><br>
+Best institute for SAP BASIS training with real-time project experience.
+</p>
+
+<h4>- Priya</h4>
+
+</div>
+
+<div class="testimonial">
+
+<p>
+★★★★★ <br><br>
+Friendly trainers, excellent placement support and interview guidance.
+</p>
+
+<h4>- Kiran</h4>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<div class="contact">
+
+<div>
+
+<h3>Ultimate Technologies</h3>
+
+<br>
+
+<p>📍 39-8-48, Pydiah St, near Veterinary Hospital Street, beside Good Luck Tea Stall, PVP, Labbipet, Vijayawada, Andhra Pradesh 520010</p>
+
+<p>📞 +91 8019350236</p>
+
+<p>✉ pulivarthi.srinivas@gmail.com</p>
+
+<p>🌐 www.ultimatetechnologies.com</p>
+
+</div>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<input type="text" placeholder="Course Interested">
+
+<textarea rows="6" placeholder="Your Message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Ultimate Technologies. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
